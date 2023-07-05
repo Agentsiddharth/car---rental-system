@@ -1,0 +1,2 @@
+
+    printsmallestsorted(10);

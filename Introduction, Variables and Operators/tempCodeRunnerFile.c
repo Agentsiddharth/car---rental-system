@@ -1,0 +1,1 @@
+printf("The value of argc is %d\n", argc);
