@@ -2,7 +2,7 @@
 using namespace std;
 int square(int n)
 {
-    int low = 0, high = n;
+    int low = 0, high = n,ans=-1;
     while (low <= high)
     {
         int mid = (low + high) / 2;
@@ -17,8 +17,10 @@ int square(int n)
         else
         {
             low = mid + 1;
+            ans=mid;
         }
     }
+    return ans;
 }
 int main()
 {
