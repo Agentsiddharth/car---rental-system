@@ -17,13 +17,13 @@ int firstoccurence(int *arry, int n, int k)
         }
         else
         {
-            if (mid == 0 || arry[mid - 1] != arry[mid])
+            if (mid == 0 || arry[mid] != arry[mid-1])
             {
                 return mid;
             }
             else
             {
-                high = mid - 1;
+               high = mid - 1;
             }
         }
     }
@@ -31,7 +31,7 @@ int firstoccurence(int *arry, int n, int k)
 int main()
 {
     int arry[]{1, 10, 10, 10, 20, 20, 40};
-    int n = 7, k = 20;
+    int n = 7, k = 10;
     cout << firstoccurence(arry, n, k);
     return 0;
 }
