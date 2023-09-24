@@ -1,1 +1,1 @@
-return
+swap(arry[idx], arry[i]);
