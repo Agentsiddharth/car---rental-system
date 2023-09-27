@@ -70,9 +70,9 @@ int main()
     s.push(40);
     s.push(30);
     s.push(20);
-    cout<<s.size1()<<endl;
-    cout<<s.peek()<<endl;
-    cout<<s.pop()<<endl;
-    cout<<s.isempty()<<endl;
+    cout << s.size1() << endl;
+    cout << s.peek() << endl;
+    cout << s.pop() << endl;
+    cout << s.isempty() << endl;
     return 0;
 }
